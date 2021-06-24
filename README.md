@@ -1,4 +1,4 @@
-# AWS - Base Infrastructure Module
+# GCP - Base Infrastructure Module
 Terraform module that creates base infrastructure in [GCP](https://cloud.google.com/) for testing [Alkira Network Cloud](https://www.alkira.com/). This module is ideal for deploying a flexible network infrastructure with AWS's low-cost, general-purpose [e2-micro](https://cloud.google.com/compute/docs/machine-types#e2_shared-core_machine_types) instances in each subnet for testing. Instances are provisioned without public IP addresses. This presents a simple and completely private environment, ideal for testing integration to Alkira's _Cloud Services Exchange (CSX)_.
 
 ## What It Does
