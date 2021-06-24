@@ -1,8 +1,3 @@
-variable "region" {
-  description = "GCP region"
-  type        = string
-}
-
 variable "vpc_name" {
   description = "VPC name"
   type        = string
