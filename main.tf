@@ -8,7 +8,6 @@ resource "google_compute_network" "vpc" {
 
 resource "google_compute_subnetwork" "subnet" {
   count                    = length(var.subnet_names)
-  region                   = var.region
   project                  = var.project_id
   name                     = var.subnet_names[count.index]
   ip_cidr_range            = var.subnet_prefixes[count.index]
